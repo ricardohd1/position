@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #2CB3F3;
+}
+
+  
+
+header section{
+  width: 70%;
+  height: 20vh;
+  text-align: center;
+  font-size: 56px;
+  position: relative;
+  top: 5vh;
+  left: 14vw;
+  font-family: Roboto;
+}
+
+.fundo{
+  width: 45vw;
+  height: 64vh;
+  position: relative;
+  top: 5vh;
+  left: 28vw;
+  border-radius: 100px 100px 0 0;
+  background-color: white;
+}
+
+.rosto{
+  width: 65%;
+  height: 55vh;
+  position: relative;
+  top: 5vh;
+  left: 7.8vw;
+  border-radius: 300px;
+  background-color: #FFE1C9;
+}
+
+.olho-e{
+  width: 4vw;
+  height: 8vh;
+  position: relative;
+  top: 25vh;
+  left: 7vw;
+  border-radius: 100px;
+  background-color: black;
+  transition: 0s all;
+}
+
+.olho-d{
+  width: 4vw;
+  height: 8vh;
+  position: relative;
+  top: 17vh;
+  left: 18vw;
+  border-radius: 100px;
+  background-color: black;
+  transition: 0s all;
+}
+
+.boca{
+  position: relative;
+  top: 22vh;
+  left: 9.5vw;
+  width: 35%;
+  transition: 0s all;
+}
+
+.login{
+  position: relative;
+  top: 22vh;
+  left: 9.5vw;
+  width: 35%;
+ 
+}
+
+input[type="email"]{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="password"]{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+
+}
+
+button{
+  padding: 15px;
+  width: 11vw;
+  height: 7.5vh;
+  position: absolute;
+  left: 45%;
+  bottom: 1.5vh;
+  font-size: 24px;
+  background-color: #55A603;
+  color: #B2F272;
+  box-shadow: 0 4px 4px 0 black;
+  font-family: Roboto;   
+  text-transform: uppercase; 
+  border: none;
+}
+
+
+
+
